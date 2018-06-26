@@ -58,14 +58,14 @@
     <repositories>
         <repository>
             <id>nexus</id>
-            <url>http://localhost:8081/repository/releases/</url>
+            <url>http://localhost:8081/nexus/content/repositories/releases/</url>
         </repository>
     </repositories>
 
     <distributionManagement>
         <repository>
             <id>nexus</id>
-            <url>http://localhost:8081/repository/snapshots/</url>
+            <url>http://localhost:8081/nexus/content/repositories/snapshots/</url>
         </repository>
     </distributionManagement>
 
