@@ -57,14 +57,14 @@
 
     <repositories>
         <repository>
-            <id>nexus</id>
-            <url>http://localhost:8081/repository/snapshots/</url>
+            <id>releases</id>
+            <url>http://localhost:8081/repository/releases/</url>
         </repository>
     </repositories>
 
     <distributionManagement>
         <repository>
-            <id>nexus</id>
+            <id>snapshots</id>
             <url>http://localhost:8081/repository/snapshots/</url>
         </repository>
     </distributionManagement>
